@@ -1,5 +1,5 @@
 ## Node ONVIF
-This small source code repository helps you to write own nodejs-based ONVIF camera application or set up system hotkeys to use the camera. This repository aims to make the super-easy, basic camera controls with NodeJS. 
+This source code repository helps you to write own nodejs-based ONVIF camera application or set up system hotkeys to use the camera. This repository aims to make the super-easy, basic camera controls with NodeJS. 
 
 ## Dependencies & requirements
 * node
@@ -28,6 +28,9 @@ This small source code repository helps you to write own nodejs-based ONVIF came
 5. Copy the IP & Port address to clipboard or remember them.
 6. Open the config.js file and replace the IP & Port with yours. Save & close the file.
 7. Now you can run any .js file in the folder like: `node streaminfo.js`
+
+## Using options
+You can use this script to make an instant camera snapshot, or, for example, control the camera while streaming from it with OBS (OpenBroadcastStudio). For this usecase (eg.: turn the camera right), just create keyboard shotcut with the following command: `node /home/username/node-onvif/turnright.js` and then arrange the hotkey. You could set up keys for rotating the camera to all directions, taking the snapshot, etc etc.
 
 ## Example of config.js file
 Please replace the IP, port and user/pass combination according to found information (onvifcamtest.js output) and/or the datasheet of the camera. The file should look like this:
