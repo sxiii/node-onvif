@@ -21,13 +21,13 @@ This small source code repository helps you to write own nodejs-based ONVIF came
 * There might be some errors worth noting or fixing (if you find them, please create an issue here)
 
 ## How to use
-.1. Install dependencies (npm, git and then npm modules): ubuntu sample - `sudo apt install npm git; npm install xml2js html node-onvif`
-.2. Clone this repository: `git clone https://github.com/sxiii/node-onvif`
-.3. Enter the repo directory: `cd node-onvif`
-.4. Run the detection JS node script to find IP of the camera: `node onvifcamtest.js`
-.5. Copy the IP & Port address to clipboard or remember them.
-.6. Open the config.js file and replace the IP & Port with yours. Save & close the file.
-.7. Now you can run any .js file in the folder like: `node streaminfo.js`
+1. Install dependencies (npm, git and then npm modules): ubuntu sample - `sudo apt install npm git; npm install xml2js html node-onvif`
+2. Clone this repository: `git clone https://github.com/sxiii/node-onvif`
+3. Enter the repo directory: `cd node-onvif`
+4. Run the detection JS node script to find IP of the camera: `node onvifcamtest.js`
+5. Copy the IP & Port address to clipboard or remember them.
+6. Open the config.js file and replace the IP & Port with yours. Save & close the file.
+7. Now you can run any .js file in the folder like: `node streaminfo.js`
 
 ## Example of config.js file
 Please replace the IP, port and user/pass combination according to found information (onvifcamtest.js output) and/or the datasheet of the camera. The file should look like this:
