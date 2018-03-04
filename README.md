@@ -65,7 +65,11 @@ Start the discovery process.
 rtsp://192.168.1.100:554/onvif1
 ```
 
-### Sample output of getstapshot.js
+### Sample output of getsnapshot.js
+Look for file saved in the directory: `snapshot.jpg`
+```
+Done!
+```
 
 ### Sample output of any rotation or zoom files
 ```
