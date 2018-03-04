@@ -1,6 +1,8 @@
 ## Node ONVIF
 This source code repository helps you to write own nodejs-based ONVIF camera application or set up system hotkeys to use the camera. This repository aims to make the super-easy, basic camera controls with NodeJS. 
 
+![Camera](onvif-camera.png)
+
 ## Dependencies & requirements
 * node
 * node modules: xml2js, html, node-onvif
